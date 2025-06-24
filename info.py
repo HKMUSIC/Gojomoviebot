@@ -14,9 +14,9 @@ def is_enabled(value, default):
     
 # Main
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('24602732', ''))
+API_HASH = environ.get('9d8e8c1693826086a3d0b75e85afb840', '')
+BOT_TOKEN = environ.get('7962035532:AAHbYyzK72Q6JS3EfUwtuxZ50JcuRl-RO74', '')
 PORT = environ.get('PORT', '8082')
 
 # Owners 
@@ -35,11 +35,11 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', ''))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', ''))
 
 # MongoDB 
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('mongodb+srv://Gojonguess:Gojonguess@nguessbot.wwo155p.mongodb.net/?retryWrites=true&w=majority&appName=Nguessbot', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 
 # Files index database url
-FILES_DATABASE = environ.get('FILES_DATABASE', "")
+FILES_DATABASE = environ.get('mongodb+srv://Gojonguess:Gojonguess@nguessbot.wwo155p.mongodb.net/?retryWrites=true&w=majority&appName=Nguessbot', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'jisshu')
 
 # Other Channel's
