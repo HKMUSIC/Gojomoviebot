@@ -21,7 +21,7 @@ PORT = environ.get('PORT', '8082')
 
 # Owners 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5672857559').split()]
-OWNER_USERNAME = environ.get('OWNER_USERNAME', 'IM_JISSHU') # without @ or https://t.me/ 
+OWNER_USERNAME = environ.get('OWNER_USERNAME', 'II_YOUR_GOJO_ll') # without @ or https://t.me/ 
 USERNAME = environ.get('USERNAME', "") # ADMIN USERNAME
 
 # Database Channel 
@@ -43,14 +43,14 @@ FILES_DATABASE = environ.get('mongodb+srv://Gojonguess:Gojonguess@nguessbot.wwo1
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'jisshu')
 
 # Other Channel's
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001864434358'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002639677964'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1001864434358') 
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1001864434358')) 
 
 # Added Link Here Not Id 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/II_GOJO')
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', '')
 
 # Verification
