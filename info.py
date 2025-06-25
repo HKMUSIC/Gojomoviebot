@@ -30,9 +30,9 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 # ForceSub Channel & Log Channels
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', ''))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', ''))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '')) 
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002626411124'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002626411124')) 
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002626411124'))
 
 # MongoDB 
 DATABASE_URI = environ.get('mongodb+srv://Gojonguess:Gojonguess@nguessbot.wwo155p.mongodb.net/?retryWrites=true&w=majority&appName=Nguessbot', "")
